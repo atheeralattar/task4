@@ -1,4 +1,4 @@
-
+$${\color{red}Atheer}$$	
 ## 1. Write a C# Sharp program to check whether a given string is a valid Hex code or not. Return true if this string is a valid code otherwise false.
 
 Sample Data:
@@ -12,7 +12,7 @@ Sample Data:
 ("#EFFA07A") -> False
 
   
-
+$${\color{red}Maytham}$$	
 ## 2. Write a C# Sharp program to calculate the average word length in a given string. Round the average length up to two decimal places.
 
 Sample Data:
@@ -24,7 +24,7 @@ Sample Data:
 (“C# is an elegant and type-safe object-oriented language") -> 5.62
 
   
-
+$${\color{red}Jafar}$$	
 ## 3. Write a C# Sharp program to check whether a given string of characters can be transformed into a palindrome. Return true otherwise false.
 
 Sample Data:
@@ -36,7 +36,7 @@ Sample Data:
 ("ferre") -> True
 
   
-
+$${\color{red}Islam}$$	
 ## 4. Write a C# Sharp program to validate a password of length 7 to 16 characters with the following guidelines:
 
 • Length between 7 and 16 characters.
@@ -62,7 +62,7 @@ Sample Data:
 ("sdsd723#$Amidkiouy") -> False
 
   
-
+$${\color{red}Hadi}$$	
 ## 5. Write a C# Sharp program to check whether two given strings contain the same character pattern.
 
 Sample Data:
@@ -72,7 +72,7 @@ Sample Data:
 ("FFGG", "ADAD") -> False
 
   
-
+$${\color{red}Tony}$$	
 # 6. Write a C# Sharp program to check for repeated occurrences of words in a given string.
 
 Sample Data:
@@ -82,11 +82,11 @@ Sample Data:
 ("Red Green Green Black Black Green.") -> 2 matches found
 
   
-
+$${\color{red}Fatima}$$	
 ## 7. Write a C# Sharp program to check whether a given string represents a currency value or has the correct format to represent a currency value.
 
   
-
+$${\color{green}Empty}$$	
 ## 8. Write a C# Sharp program to remove special characters from given text. Return the updated string which allows alphanumeric characters, spaces, underscores _ and dashes - .
 
 Sample Data:
@@ -98,7 +98,7 @@ Sample Data:
 ("google.com") -> "googlecom"
 
   
-
+$${\color{green}Empty}$$	
 ## 9. Write a C# Sharp program to locate the word “C#” in a given string. If the word "C#" is found, return “C# document found.” otherwise return “Sorry no C# document!”.
 
 Sample Data:
