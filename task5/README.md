@@ -1,4 +1,4 @@
-$${\color{red}Atheer}$$	
+$${\color{red}Jafar}$$	
 ## 1. Write a C# Sharp program to check whether a given string is a valid Hex code or not. Return true if this string is a valid code otherwise false.
 
 Sample Data:
@@ -24,7 +24,7 @@ Sample Data:
 (“C# is an elegant and type-safe object-oriented language") -> 5.62
 
   
-$${\color{red}Jafar}$$	
+$${\color{red}Atheer}$$	
 ## 3. Write a C# Sharp program to check whether a given string of characters can be transformed into a palindrome. Return true otherwise false.
 
 Sample Data:
