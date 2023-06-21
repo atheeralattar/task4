@@ -1,7 +1,7 @@
 ﻿using ConsoleApp2;
 void IsContainCSharp(string s)
 {
-    if (s.ToLower().Contains("c#"))
+    if (Regex.IsMatch(s,"[Cc]#"))
     {
         Console.WriteLine("C# document found.");
     }
