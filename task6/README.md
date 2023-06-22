@@ -1,5 +1,5 @@
 
-1. Write C# Sharp program to demonstrate that the Compare(String, String, Boolean) method is equivalent to using ToUpper or ToLower when comparing strings.
+###1. Write C# Sharp program to demonstrate that the Compare(String, String, Boolean) method is equivalent to using ToUpper or ToLower when comparing strings.
 
 Expected Output :
 
@@ -13,7 +13,7 @@ The Strings are equal when case is ignored? true
 
   
 
-2. Write a C# Sharp program to demonstrate how culture affects comparisons.
+###2. Write a C# Sharp program to demonstrate how culture affects comparisons.
 
   
 
@@ -31,7 +31,7 @@ For cs-CZ: change > dollar
 
   
 
-3. Write a C# Sharp program to compare two strings in following three different ways produce three different results.
+###3. Write a C# Sharp program to compare two strings in following three different ways produce three different results.
 
   
 
@@ -55,7 +55,7 @@ Expected Output :
 
   
 
-4. Write a C# Sharp program to compare three versions of the letter "I". The results are affected by culture choice, whether the case is ignored, and whether an ordinal comparison is performed.
+###4. Write a C# Sharp program to compare three versions of the letter "I". The results are affected by culture choice, whether the case is ignored, and whether an ordinal comparison is performed.
 
   
 
@@ -79,7 +79,7 @@ LATIN SMALL LETTER DOTLESS I (U+0131) is greater than LATIN CAPITAL LETTER I (U+
 
   
 
-5. Write a C# Sharp program to demonstrate that you compare ordinals and compare using different sort orders.
+###5. Write a C# Sharp program to demonstrate that you compare ordinals and compare using different sort orders.
 
   
 
@@ -97,7 +97,7 @@ Compare("xyz"[1], "XYZ"[1]):
 
   
 
-6. Write a C# Sharp program to perform an ordinal comparison of two strings that only differ in case.
+###6. Write a C# Sharp program to perform an ordinal comparison of two strings that only differ in case.
 
   
 
@@ -113,7 +113,7 @@ String 'JAVA' is less than String 'python'.
 
   
 
-7. Write a C# Sharp program to compare a given string with a set of strings.
+###7. Write a C# Sharp program to compare a given string with a set of strings.
 
   
 
@@ -135,7 +135,7 @@ Comparing 'some text' with 'Some Text': -1
 
   
 
-8. Write a C# Sharp program to compare the current string instance with another string.
+###8. Write a C# Sharp program to compare the current string instance with another string.
 
 Expected Output :
 
@@ -153,7 +153,7 @@ The first string follows the second in the sort order.
 
   
 
-9. Write a C# Sharp program to concatenate three objects, objects with a variable and a 3-element object array.
+###9. Write a C# Sharp program to concatenate three objects, objects with a variable and a 3-element object array.
 
   
 
@@ -173,7 +173,7 @@ The string to search ends with the target string: False
 
   
 
-10. Write a C# Sharp program to concatenate a list of variable parameters.
+###10. Write a C# Sharp program to concatenate a list of variable parameters.
 
   
 
@@ -191,7 +191,7 @@ mnop --> nmpo
 
   
 
-11. Write a C# Sharp program to concatenate three strings and display the result.
+###11. Write a C# Sharp program to concatenate three strings and display the result.
 
   
 
@@ -203,7 +203,7 @@ Don't count your chickens, before the eggs, have hatched.
 
   
 
-12. Write a C# Sharp program to concatenate string array values.
+###12. Write a C# Sharp program to concatenate string array values.
 
   
 
@@ -217,7 +217,7 @@ hello applicationsC# Sharp client create to welcome Windows
 
   
 
-13. Write a C# Sharp program to determine whether the string "birds" is a substring of a familiar string.
+###13. Write a C# Sharp program to determine whether the string "birds" is a substring of a familiar string.
 
   
 
@@ -235,7 +235,7 @@ Expected Output :
 
   
 
-14. Write a C# Sharp program to create two string objects with different values.
+###14. Write a C# Sharp program to create two string objects with different values.
 
 When it calls the Copy method to assign the first value to the second string, the output indicates that the strings represent different object references. However, their values are now equal. On the other hand, when the first string is assigned to the second string, the two strings have identical values. This is because they represent the same object reference.
 
@@ -254,7 +254,7 @@ s2 = 'Python''
 
   
 
-15. Write a C# Sharp program to indicate whether each string in an array ends with a period (".").
+###15. Write a C# Sharp program to indicate whether each string in an array ends with a period (".").
 
   
 
@@ -274,7 +274,7 @@ Expected Output :
 
   
 
-16. Write C# Sharp program to check whether a string occurs at the end of another string.
+###16. Write C# Sharp program to check whether a string occurs at the end of another string.
 
   
 
@@ -306,7 +306,7 @@ The string to search ends with the target string: False
 
   
 
-17. Write a C# Sharp program to determine whether a string ends with a particular substring.
+###17. Write a C# Sharp program to determine whether a string ends with a particular substring.
 
   
 
@@ -334,7 +334,7 @@ StringComparison.CurrentCulture:
 
   
 
-18. Write a C# Sharp program to get the longest Palindromic substring from a given string.
+###18. Write a C# Sharp program to get the longest Palindromic substring from a given string.
 
   
 
@@ -374,7 +374,7 @@ av
 
   
 
-19. Write a C# Sharp program to reverse a given string in uppercase.
+###19. Write a C# Sharp program to reverse a given string in uppercase.
 
   
 
@@ -396,7 +396,7 @@ Said string in uppercase: DCBA
 
   
 
-20. Write a C# Sharp program to remove duplicate characters from a given string.
+###20. Write a C# Sharp program to remove duplicate characters from a given string.
 
   
 
@@ -424,7 +424,7 @@ Jav
 
   
 
-21. Write a C# Sharp program to find the length of the longest substring without repeating characters in a given string.
+###21. Write a C# Sharp program to find the length of the longest substring without repeating characters in a given string.
 
   
 
@@ -458,7 +458,7 @@ Length of the longest substring without repeating characters of the said string:
 
   
 
-22. Write a C# Sharp program to reverse the case (upper->lower, lower->upper) of all the characters in a given string.
+###22. Write a C# Sharp program to reverse the case (upper->lower, lower->upper) of all the characters in a given string.
 
   
 
@@ -484,7 +484,7 @@ After reversing the case of all characters of the said string: pYTHON 3.0
 
   
 
-23. Write a C# Sharp program to find the central character(s) in a given string. Return the middle character if the string length is odd and return two middle characters if the string length is even.
+###23. Write a C# Sharp program to find the central character(s) in a given string. Return the middle character if the string length is odd and return two middle characters if the string length is even.
 
   
 
@@ -510,7 +510,7 @@ Middle character(s) of the said string: C#
 
   
 
-24. Write a C# Sharp program to find the maximum and minimum number from a given string of numbers separated by a single space.
+###24. Write a C# Sharp program to find the maximum and minimum number from a given string of numbers separated by a single space.
 
   
 
@@ -530,7 +530,7 @@ Maximum and minimum number of the said string: 10, -2
 
   
 
-25. Write a C# Sharp program to check whether a given string is an “isograms” or not. Return True or False.
+###25. Write a C# Sharp program to check whether a given string is an “isograms” or not. Return True or False.
 
   
 
@@ -568,7 +568,7 @@ Check the said string is an 'isograms' or not! True
 
   
 
-26. Write a C# Sharp program to convert the first character of each word in a given string to uppercase.
+###26. Write a C# Sharp program to convert the first character of each word in a given string to uppercase.
 
   
 
@@ -590,7 +590,7 @@ The Quick Brown Fox Jumps Over The Little Lazy Dog
 
   
 
-27. Write a C# Sharp program to find the position of a specified word in a given string.
+###27. Write a C# Sharp program to find the position of a specified word in a given string.
 
   
 
@@ -614,7 +614,7 @@ Position of the word 'lazy' in the said string: 8
 
   
 
-28. Write a C# Sharp program to alternate the case of each letter in a given string. The first letter of this string must be uppercase.
+###28. Write a C# Sharp program to alternate the case of each letter in a given string. The first letter of this string must be uppercase.
 
   
 
@@ -642,7 +642,7 @@ C# Is UsEd To DeVeLoP wEb ApPs, dEsKtOp ApPs, mObIlE aPpS, GaMeS aNd MuCh MoRe.
 
   
 
-29. Write a C# Sharp program to reverse all the words of a given string with even length.
+###29. Write a C# Sharp program to reverse all the words of a given string with even length.
 
   
 
@@ -670,7 +670,7 @@ Reverse all the words of the said string which have even length.:
 
   
 
-30. Write a C# Sharp program to find the longest common ending between two given strings.
+###30. Write a C# Sharp program to find the longest common ending between two given strings.
 
   
 
@@ -694,7 +694,7 @@ Common ending between said two strings:
 
   
 
-31. Write a C# Sharp program that takes a string and reverses the words of three or more lengths in a string. Return the updated string. As input characters, only letters and spaces are permitted.
+###31. Write a C# Sharp program that takes a string and reverses the words of three or more lengths in a string. Return the updated string. As input characters, only letters and spaces are permitted.
 
   
 
@@ -710,7 +710,7 @@ Sample Data:
 
   
 
-32. Write a C# Sharp program to check if two given strings are anagrams or not.
+###32. Write a C# Sharp program to check if two given strings are anagrams or not.
 
   
 
@@ -728,7 +728,7 @@ Sample Data:
 
   
 
-33. Write a C# Sharp program to reverse a positive integer and add the reversed number to the original number.
+###33. Write a C# Sharp program to reverse a positive integer and add the reversed number to the original number.
 
   
 
@@ -744,7 +744,7 @@ Sample Data:
 
   
 
-34. Write a C# Sharp program to count the number of duplicate characters (case sensitive) including spaces in a given string. If there are no duplicates, return 0.
+###34. Write a C# Sharp program to count the number of duplicate characters (case sensitive) including spaces in a given string. If there are no duplicates, return 0.
 
   
 
@@ -760,13 +760,13 @@ Sample Data:
 
   
 
-35. Write a C# Sharp program to count a specific string (case sensitive) in given text.
+###35. Write a C# Sharp program to count a specific string (case sensitive) in given text.
 
   
 
   
 
-36. Write a C# Sharp program that displays all the characters with their respective numbers from a string.
+###36. Write a C# Sharp program that displays all the characters with their respective numbers from a string.
 
   
 
@@ -784,7 +784,7 @@ Sample Data:
 
   
 
-37. Write a C# Sharp program that takes a string that repeats a substring. Count the number of times the substring appears.
+###37. Write a C# Sharp program that takes a string that repeats a substring. Count the number of times the substring appears.
 
   
 
@@ -800,7 +800,7 @@ Sample Data:
 
   
 
-38. Write a C# Sharp program to find the longest abecedarian word in a given array of words.
+###38. Write a C# Sharp program to find the longest abecedarian word in a given array of words.
 
   
 
@@ -816,7 +816,7 @@ Sample Data:
 
   
 
-39. Write a C# Sharp program to find the century of a given year.
+###39. Write a C# Sharp program to find the century of a given year.
 
   
 
@@ -834,7 +834,7 @@ Sample Data:
 
   
 
-40. Write a C# Sharp program to calculate the highest frequency of the character(s) in the words of a given string.
+###40. Write a C# Sharp program to calculate the highest frequency of the character(s) in the words of a given string.
 
   
 
@@ -850,7 +850,7 @@ Sample Data:
 
   
 
-41. Write a C# Sharp program that converts ASCII characters to hexadecimal values.
+###41. Write a C# Sharp program that converts ASCII characters to hexadecimal values.
 
   
 
@@ -866,7 +866,7 @@ Sample Data:
 
   
 
-42. Write a C# Sharp program to check whether all characters in a given string are unique. If all the characters are distinct, return “There is no similarity between any of the characters!” otherwise if not unique, then:.
+###42. Write a C# Sharp program to check whether all characters in a given string are unique. If all the characters are distinct, return “There is no similarity between any of the characters!” otherwise if not unique, then:.
 
   
 
