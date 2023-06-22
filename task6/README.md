@@ -1,3 +1,13 @@
+| Person Name | Questions Range |
+|-------------|-----------------|
+| Atheer      | 1-6             |
+| Fatima      | 7-12            |
+| Hadi        | 13-18           |
+| Islam       | 19-24           |
+| Jafar       | 25-30           |
+| Maytham     | 31-36           |
+| Tony        | 37-42           |
+
 
 ### 1. Write C# Sharp program to demonstrate that the Compare(String, String, Boolean) method is equivalent to using ToUpper or ToLower when comparing strings.
 
