@@ -35,21 +35,21 @@ public class Program
 {
     public static void Main()
     {
-        Console.WriteLine(AreAnagrams("wxyz", "zyxw"));  // True
-        Console.WriteLine(AreAnagrams("pears", "spare"));  // True
-        Console.WriteLine(AreAnagrams("stone", "tones"));  // True
-        Console.WriteLine(AreAnagrams("cat", "rat"));  // False
+        Console.WriteLine(AreAnagrams("wxyz", "zyxw"));  
+        Console.WriteLine(AreAnagrams("pears", "spare"));  
+        Console.WriteLine(AreAnagrams("stone", "tones"));  
+        Console.WriteLine(AreAnagrams("cat", "rat")); 
     }
 
     public static bool AreAnagrams(string str1, string str2)
     {
-        // If the strings are different lengths, they cannot be anagrams
+    
         if (str1.Length != str2.Length)
         {
             return false;
         }
 
-        // Convert the strings to character arrays, sort them and compare them
+      
         var str1Array = str1.ToCharArray();
         var str2Array = str2.ToCharArray();
 
@@ -67,9 +67,9 @@ public class Program
 {
     public static void Main()
     {
-        Console.WriteLine(ReverseAndAdd(456));  // 456654
-        Console.WriteLine(ReverseAndAdd(-123));  // "Input a positive number."
-        Console.WriteLine(ReverseAndAdd(10000));  // 1000000001
+        Console.WriteLine(ReverseAndAdd(456));  
+        Console.WriteLine(ReverseAndAdd(-123));  
+        Console.WriteLine(ReverseAndAdd(10000));  
     }
 
     public static string ReverseAndAdd(int number)
@@ -82,7 +82,7 @@ public class Program
         int reversedNumber = 0;
         int temp = number;
 
-        // Reverse the number
+      
         while (temp > 0)
         {
             int remainder = temp % 10;
@@ -90,10 +90,47 @@ public class Program
             temp /= 10;
         }
 
-        // Add the reversed number to the original number
+   
         int result = number + reversedNumber;
 
         return result.ToString();
+    }
+}
+using System;
+using System.Collections.Generic;
+
+public class Program
+{
+    public static void Main()
+    {
+        Console.WriteLine(CountDuplicateCharacters("Red Green WHITE"));  // 2
+        Console.WriteLine(CountDuplicateCharacters("ppqrrsttuuu"));  // 4
+        Console.WriteLine(CountDuplicateCharacters("dow jones industrial average"));  // 9
+    }
+
+    public static int CountDuplicateCharacters(string str)
+    {
+        Dictionary<char, int> characterCounts = new Dictionary<char, int>();
+        int duplicatesCount = 0;
+
+        foreach (char c in str)
+        {
+            if (characterCounts.ContainsKey(c))
+            {
+              
+                if (characterCounts[c] == 1)
+                {
+                    duplicatesCount++;
+                }
+                characterCounts[c]++;
+            }
+            else
+            {
+                characterCounts.Add(c, 1);
+            }
+        }
+
+        return duplicatesCount;
     }
 }
 
