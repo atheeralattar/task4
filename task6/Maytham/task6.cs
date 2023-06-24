@@ -59,3 +59,42 @@ public class Program
         return new string(str1Array) == new string(str2Array);
     }
 }
+
+
+using System;
+
+public class Program
+{
+    public static void Main()
+    {
+        Console.WriteLine(ReverseAndAdd(456));  // 456654
+        Console.WriteLine(ReverseAndAdd(-123));  // "Input a positive number."
+        Console.WriteLine(ReverseAndAdd(10000));  // 1000000001
+    }
+
+    public static string ReverseAndAdd(int number)
+    {
+        if (number < 0)
+        {
+            return "Input a positive number.";
+        }
+
+        int reversedNumber = 0;
+        int temp = number;
+
+        // Reverse the number
+        while (temp > 0)
+        {
+            int remainder = temp % 10;
+            reversedNumber = (reversedNumber * 10) + remainder;
+            temp /= 10;
+        }
+
+        // Add the reversed number to the original number
+        int result = number + reversedNumber;
+
+        return result.ToString();
+    }
+}
+
+
