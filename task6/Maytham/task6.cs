@@ -31,6 +31,9 @@ public class Program
 
 
 
+
+
+
 public class Program
 {
     public static void Main()
@@ -161,3 +164,47 @@ class Program
         return count;
     }
 }
+
+
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine(ConvertStringToNumbers("C Sharp"));
+        Console.WriteLine(ConvertStringToNumbers("The quick brown fox jumps over the lazy dog."));
+        Console.WriteLine(ConvertStringToNumbers("HTML Tutorial"));
+    }
+
+    static string ConvertStringToNumbers(string input)
+    {
+        string result = "";
+
+        foreach (char c in input)
+        {
+            if (char.IsLetter(c))
+            {
+                if (char.IsUpper(c))
+                {
+                    // For uppercase letters subtract 'A' then add 1
+                    result += " " + ((int)c - (int)'A' + 1);
+                }
+                else
+                {
+                    // For lowercase letters subtract 'a' then add 1
+                    result += " " + ((int)c - (int)'a' + 1);
+                }
+            }
+            else if (char.IsWhiteSpace(c))
+            {
+                // If it's a whitespace, add it to the result
+                result += " ";
+            }
+        }
+
+        return result;
+    }
+}
+
