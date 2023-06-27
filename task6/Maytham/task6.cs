@@ -134,4 +134,30 @@ public class Program
     }
 }
 
+using System;
 
+class Program
+{
+    static void Main()
+    {
+        string source = "Hello, soso! soso is a beautiful name. We all love this name";
+        string target = "soso";
+
+        int count = CountOccurrences(source, target);
+        Console.WriteLine($"The string \"{target}\" appears {count} time(s) in the source string.");
+    }
+
+    static int CountOccurrences(string source, string target)
+    {
+        int count = 0;
+        int startIndex = 0;
+
+        while ((startIndex = source.IndexOf(target, startIndex, StringComparison.Ordinal)) != -1)
+        {
+            count++;
+            startIndex += target.Length;
+        }
+
+        return count;
+    }
+}
