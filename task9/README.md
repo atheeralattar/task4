@@ -15,14 +15,14 @@
 
  (Atheer) 4. Write a C# function that prints all the keys less than a given value v
     in a binary tree. 
-
+---
  5. (a)  The height of a tree is the maximum number of nodes on a path from the root
          to a leaf node. Write a C# function that returns the height of a binary tree.
 
     (b)  The cost of a path in a tree is sum of the keys of the nodes participating
          in that path. Write a C function that returns the cost of the most expensive
          path from the root to a leaf node.
-
+---
  6. A binary tree is said to be "balanced" if both of its subtrees  
     are balanced and the height of its left subtree differs from the
     height of its right subtree by at most 1.  Write a C# function to
