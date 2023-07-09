@@ -13,7 +13,7 @@
 		 
 ---
 
- (Atheer) 4. Write a C# function that prints all the keys less than a given value v
+ (Atheer) 4. Write a function that prints all the keys less than a given value v
     in a binary tree. 
 ---
  5. (a)  The height of a tree is the maximum number of nodes on a path from the root
