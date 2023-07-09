@@ -7,7 +7,7 @@
 | Tony   | Q4 & Q11 |
 | Islam  | Q5 & Q10 |
 | Hadi   | Q6 & Q9  |
-| Jaffer | Q7 & Q8  |
+| Jafar | Q7 & Q8  |
 
 
 1. Write a C# program to implement a queue using an array. Programs should contain functions for inserting elements into the queue, displaying queue elements, and checking whether the queue is empty or not.
